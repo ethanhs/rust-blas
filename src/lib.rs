@@ -18,7 +18,7 @@
 //! * Level 3: `matrix`
 
 extern crate libc;
-extern crate num;
+extern crate num_complex;
 
 pub use vector::Vector;
 pub use vector::VectorOperations;
