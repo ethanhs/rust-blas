@@ -19,6 +19,7 @@
 
 extern crate libc;
 extern crate num_complex;
+extern crate num_traits;
 
 pub use vector::Vector;
 pub use vector::VectorOperations;

@@ -4,7 +4,7 @@
 
 //! Wrappers for matrix functions.
 
-use num::complex::{Complex, Complex32, Complex64};
+use num_complex::{Complex, Complex32, Complex64};
 use attribute::{Diagonal, Side, Symmetry, Transpose};
 use pointer::CPtr;
 use scalar::Scalar;

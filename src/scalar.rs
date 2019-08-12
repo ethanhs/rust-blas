@@ -2,7 +2,7 @@
 // Use of this source code is governed by a MIT-style
 // license that can be found in the LICENSE file.
 
-use num::complex::Complex;
+use num_complex::Complex;
 use libc::{c_double, c_float, c_void};
 
 pub trait Scalar<T, S> {

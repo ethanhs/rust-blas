@@ -14,4 +14,5 @@ build = "build.rs"
 
 [dependencies]
 num-complex = "0.2"
+num-traits = "0.2"
 libc = "0.2"

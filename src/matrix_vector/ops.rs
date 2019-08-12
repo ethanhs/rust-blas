@@ -4,7 +4,7 @@
 
 //! Wrappers for matrix-vector functions.
 
-use num::complex::{Complex, Complex32, Complex64};
+use num_complex::{Complex, Complex32, Complex64};
 use attribute::{Diagonal, Symmetry, Transpose};
 use matrix::{BandMatrix, Matrix};
 use matrix_vector::ll::*;

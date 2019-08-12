@@ -7,7 +7,7 @@ use std::fmt;
 use std::iter::repeat;
 use std::ops::Index;
 use std::slice;
-use num::traits::NumCast;
+use num_traits::NumCast;
 use Matrix;
 use Vector;
 use vector::ops::Copy;

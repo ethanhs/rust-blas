@@ -6,7 +6,7 @@ use std::ops::{
     Add,
     Mul,
 };
-use num::complex::{Complex32, Complex64};
+use num_complex::{Complex32, Complex64};
 use attribute::Transpose;
 use default::Default;
 use math::Trans;

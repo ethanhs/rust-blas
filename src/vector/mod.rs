@@ -4,8 +4,8 @@
 
 //! Vector operations.
 use libc::c_int;
-use num::traits::NumCast;
-use num::complex::{Complex32, Complex64};
+use num_traits::NumCast;
+use num_complex::{Complex32, Complex64};
 use vector::ops::{Copy, Axpy, Scal, Dot, Nrm2, Asum, Iamax};
 
 pub mod ll;

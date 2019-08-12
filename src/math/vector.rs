@@ -6,7 +6,7 @@ use std::ops::{
     Add,
     Mul,
 };
-use num::complex::{Complex32, Complex64};
+use num_complex::{Complex32, Complex64};
 use default::Default;
 use vector::ops::*;
 use vector::Vector;
@@ -72,7 +72,7 @@ left_scale!(f32, f64, Complex32, Complex64);
 mod tests {
     use Vector;
     use math::Marker::{T, H};
-    use num::complex::Complex;
+    use num_complex::Complex;
 
     #[test]
     fn add() {

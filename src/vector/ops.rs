@@ -4,7 +4,7 @@
 
 //! Wrappers for vector functions.
 
-use num::complex::{Complex, Complex32, Complex64};
+use num_complex::{Complex, Complex32, Complex64};
 use std::cmp;
 use default::Default;
 use pointer::CPtr;
@@ -86,7 +86,7 @@ axpy_impl!(f32, f64, Complex32, Complex64);
 
 #[cfg(test)]
 mod axpy_tests {
-    use num::complex::Complex;
+    use num_complex::Complex;
     use vector::ops::Axpy;
 
     #[test]
@@ -156,7 +156,7 @@ scal_impl!(f32, f64, Complex32, Complex64);
 
 #[cfg(test)]
 mod scal_tests {
-    use num::complex::Complex;
+    use num_complex::Complex;
     use vector::ops::Scal;
 
     #[test]
@@ -219,7 +219,7 @@ swap_impl!(f32, f64, Complex32, Complex64);
 
 #[cfg(test)]
 mod swap_tests {
-    use num::complex::Complex;
+    use num_complex::Complex;
     use vector::ops::Swap;
 
     #[test]
@@ -308,7 +308,7 @@ complex_dot_impl!(Complex32, Complex64);
 
 #[cfg(test)]
 mod dot_tests {
-    use num::complex::Complex;
+    use num_complex::Complex;
     use vector::ops::Dot;
 
     #[test]
@@ -374,7 +374,7 @@ dotc_impl!(Complex32, Complex64);
 
 #[cfg(test)]
 mod dotc_tests {
-    use num::complex::Complex;
+    use num_complex::Complex;
     use vector::ops::Dotc;
 
     #[test]
@@ -436,7 +436,7 @@ complex_norm_impl!(Nrm2, nrm2, Complex64, cblas_d::znrm2);
 
 #[cfg(test)]
 mod asum_tests {
-    use num::complex::Complex;
+    use num_complex::Complex;
     use vector::ops::Asum;
 
     #[test]
@@ -466,7 +466,7 @@ mod asum_tests {
 
 #[cfg(test)]
 mod nrm2_tests {
-    use num::complex::Complex;
+    use num_complex::Complex;
     use vector::ops::Nrm2;
 
     #[test]
@@ -523,7 +523,7 @@ iamax_impl!(Complex64, cblas_i::zamax);
 
 #[cfg(test)]
 mod iamax_tests {
-    use num::complex::Complex;
+    use num_complex::Complex;
     use vector::ops::Iamax;
 
     #[test]
